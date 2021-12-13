@@ -1,10 +1,12 @@
 # Loan-Default-Prediction
 Solution to MachineHack Deloitte Machine Learning Challenge
 
+
 ## Problem Statement
 Banks run into losses when a customer doesn't pay their loans on time. Because of this, every year, banks have losses in crores, and this also impacts the country's economic growth to a large extent. In this hackathon, we look at various attributes such as funded amount, location, loan, balance, etc., to predict if a person will be a loan defaulter or not. 
 
 The challenge is to predict the Loan Status.
+
 
 ## Data Dictionary
     ID: unique ID of representative
@@ -46,6 +48,7 @@ The challenge is to predict the Loan Status.
 Train.csv - 67463 rows x 35 columns (Includes target column as Loan Status)
 Test.csv - 28913 rows x 34 columns(Includes target column as Loan Status)
 
+
 ## Data Pre-processing
 - Variables that are usually generated once the loan is approved are removed. 
 - Incorrect values of Loan Amount and Funded Amount Investor are rectified.
@@ -57,12 +60,15 @@ Test.csv - 28913 rows x 34 columns(Includes target column as Loan Status)
 ### Feature Generation
 Available accounts - number of available credit lines, is generated from Total Accounts and Open Account.
 
+
 ## Evaluation Metric
-The competition evaluation metric used is Log-loss. 
+The compet
+ition evaluation metric used is Log-loss. 
 
 ## Approach
 As this is a classification problem that involves prediction of whether a loan applicant will default or not, Logistic Regression and Random Forest models are built. Stratified K-fold cross validation with 5 folds and shuffle is utilised for model evaluation. It ensures that both classes of target variable Loan Status are equally distributed during evaluating model performance. Although, Logistic Regression and Random Forest with tuned hyperparameters achieve identical log loss scores~0.308 during cross validation, Random Forest is chosen as the final model. 
 
+
 ## Leaderboard
-- [Public Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 36th Rank
-- [Private Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 
+- [Public Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 40th Rank
+- [Private Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 38th Rank
