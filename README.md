@@ -60,7 +60,7 @@ Test.csv - 28913 rows x 34 columns(Includes target column as Loan Status)
 - StandardScaler is used to scale the numerical variables.
 
 ### Feature Generation
-Available accounts - number of available credit lines, is generated from Total Accounts and Open Account.
+Used accounts - number of used credit lines, is generated from Total Accounts and Open Account.
 
 
 ## Evaluation Metric
