@@ -67,8 +67,9 @@ Used accounts - number of used credit lines, is generated from Total Accounts an
 The competition evaluation metric used is Log-loss. 
 
 ## Approach
-As this is a classification problem that involves prediction of whether a loan applicant will default or not, Logistic Regression and Random Forest models are built. 
-Stratified K-fold cross validation with 5 folds and shuffle is utilised for model evaluation. It ensures that both classes of target variable Loan Status are equally distributed during evaluating model performance. Although, Logistic Regression and Random Forest with tuned hyperparameters achieve identical log loss scores~0.308 during cross validation, Random Forest is chosen as the final model. 
+- As this is a classification problem that involves prediction of whether a loan applicant will default or not, Logistic Regression and Random Forest models are built. 
+- Stratified K-fold cross validation with 5 folds and shuffle is utilised for model evaluation. It ensures that both classes of target variable Loan Status are equally distributed during evaluating model performance. 
+- Although, Logistic Regression and Random Forest with tuned hyperparameters achieve identical log loss scores~0.308 during cross validation, Random Forest is chosen as the final model. 
 
 
 ## Leaderboard
