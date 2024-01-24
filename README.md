@@ -73,5 +73,5 @@ The competition evaluation metric used is Log-loss.
 
 
 ## Leaderboard
-- [Public Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 40th Rank
-- [Private Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 38th Rank
+- [Public Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 39th Rank
+- [Private Leaderboard](https://machinehack.com/hackathons/deloitte_presents_machine_learning_challenge_predict_loan_defaulters/leaderboard): 37th Rank
